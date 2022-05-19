@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/fazrin.adinugraha/Dev/antre-grpc'
+protoc -I protobuf --go_out=./go --go_opt=module=github.com/eifzed/antre-grpc/protobuf --go-grpc_out=./go --go-grpc_opt=module=github.com/eifzed/antre-grpc/protobuf protobuf/antre.proto
+make: Leaving directory `/Users/fazrin.adinugraha/Dev/antre-grpc'
+ 
